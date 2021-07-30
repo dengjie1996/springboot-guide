@@ -64,7 +64,7 @@ Powermockito.when(mock.method(Params..)).thenThrow(Exception)
 
 需要使用 `Whitebox` 向 class 或者对象中赋值。
 
-如我们已经对接口尽心了 mock，现在需要将此 mock 加入到对象中，可以采用如下方法：
+如我们已经对接口进行了 mock，现在需要将此 mock 加入到对象中，可以采用如下方法：
 
 ```java
 Whitebox.setInternalState(Object object, String fieldname, Object… value);
